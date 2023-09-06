@@ -5,4 +5,3 @@ pandas
 plotly
 ipywidgets
 IPython
-os
