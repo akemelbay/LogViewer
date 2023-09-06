@@ -4,3 +4,4 @@ plotly
 ipywidgets
 IPython
 os
+voila
