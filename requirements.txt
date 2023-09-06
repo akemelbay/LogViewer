@@ -1,0 +1,6 @@
+ipyfilechooser
+pandas
+plotly
+ipywidgets
+IPython
+os
