@@ -153,7 +153,7 @@ if uploaded_file is not None:
             spikecolor='gray',
             spikethickness=1,
             showgrid=True,
-            tickformat="%H:%M:%S"
+            #tickformat="%H:%M:%S"
         ),
         height=800,
         template="plotly_white",
