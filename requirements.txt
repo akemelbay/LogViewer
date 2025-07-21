@@ -1,7 +1,0 @@
-jupyterlab
-voila
-ipyfilechooser
-pandas
-plotly
-ipywidgets
-IPython
