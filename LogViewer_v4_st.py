@@ -131,8 +131,10 @@ if uploaded_file is not None:
         ))
 
         yaxis_dict = dict(
-            title=col,
-            titlefont=dict(color=color),
+            title=dict(
+                text=col,
+                font=dict(color=color)
+            ),
             tickfont=dict(color=color),
             overlaying='y' if i > 0 else None,  # Only overlay after the first
             side='left' if i > 0 else None,  # Only overlay after the first
@@ -153,7 +155,7 @@ if uploaded_file is not None:
             spikecolor='gray',
             spikethickness=1,
             showgrid=True,
-            #tickformat="%H:%M:%S"
+            tickformat="%H:%M:%S"
         ),
         height=800,
         template="plotly_white",
